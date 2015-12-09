@@ -22,5 +22,14 @@ setup(
         'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python',
-        ]
+    ],
+    install_requires=[
+        'click',
+        'requests',
+    ],
+    entry_points='''
+        [console_scripts]
+        pipcheckmeta=pipcheckmeta:cli
+    ''',
+
 )
