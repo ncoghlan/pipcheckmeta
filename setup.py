@@ -26,6 +26,9 @@ setup(
     install_requires=[
         'click',
         'requests',
+        'distlib',
+        'parse',
+        'packaging',
     ],
     entry_points='''
         [console_scripts]
