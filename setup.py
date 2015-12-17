@@ -29,6 +29,7 @@ setup(
         'distlib',
         'parse',
         'packaging',
+        'peep'
     ],
     entry_points='''
         [console_scripts]
