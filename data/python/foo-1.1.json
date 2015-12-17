@@ -1,0 +1,8 @@
+{
+    "name": "Foo",
+    "version": 1.2,
+    "cve_list": [
+        "CVE-2015-123: This is a problem",
+        "CVE-2015-456: This is also a problem"
+    ]
+}

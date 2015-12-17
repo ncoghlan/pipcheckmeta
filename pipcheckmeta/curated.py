@@ -25,7 +25,7 @@ def check_metadata(name, version=None, source_hash=None):
     if data is None:
         problems.append("No metadata found")
         return problems
-    cve_list = data.get("cves")
+    cve_list = data.get("cve_list")
     if cve_list is not None:
         for cve in cve_list:
             problems.append(cve)
